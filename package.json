@@ -1,0 +1,23 @@
+{
+  "name": "connectors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinnianHBLR/webserverconnector.git"
+  },
+  "author": "Finnian Logan-Riley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FinnianHBLR/webserverconnector/issues"
+  },
+  "homepage": "https://github.com/FinnianHBLR/webserverconnector#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "prompt-sync": "^4.2.0"
+  }
+}

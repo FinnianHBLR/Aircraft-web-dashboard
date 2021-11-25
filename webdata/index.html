@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+
+</html>
+
+  <head></head>
+  <body>
+      <h1><p id='datainput'></id></h1>
+    <script>
+       setInterval(function () {
+        fetch('http://localhost:3000/datastream.json')
+            .then(response => response.json())
+            .then(data => document.getElementById('datainput').innerHTML = data.name);
+    
+        }, 1000)
+      //https://stackoverflow.com/questions/37602748/updating-data-realtime-in-node-js-express-website
+</script>
+
+</body>
